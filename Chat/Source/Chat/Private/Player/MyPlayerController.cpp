@@ -1,0 +1,108 @@
+#include "Player/MyPlayerController.h"
+#include "UI/ChatInput.h"
+#include "Kismet/KismetSystemLibrary.h"
+#include "Chat.h"
+#include "EngineUtils.h"
+#include "Kismet/GameplayStatics.h"
+#include "Game/MyGameModeBase.h"
+#include "Player/MyPlayerState.h"
+#include "Net/UnrealNetwork.h"
+
+AMyPlayerController::AMyPlayerController()
+{
+	bReplicates = true;
+}
+
+void AMyPlayerController::BeginPlay()
+{
+	Super::BeginPlay();
+
+	if (IsLocalController() == false)
+	{
+		return;
+	}
+
+	FInputModeUIOnly InputModeUIOnly;
+	SetInputMode(InputModeUIOnly);
+
+	if (IsValid(ChatInputWidgetClass) == true)
+	{
+		ChatInputWidgetInstance = CreateWidget<UChatInput>(this, ChatInputWidgetClass);
+		if (IsValid(ChatInputWidgetInstance) == true)
+		{
+			ChatInputWidgetInstance->AddToViewport();
+		}
+	}
+
+	if (IsValid(NotificationTextWidgetClass) == true)
+	{
+		NotificationTextWidgetInstance = CreateWidget<UUserWidget>(this, NotificationTextWidgetClass);
+		if (IsValid(NotificationTextWidgetInstance) == true)
+		{
+			NotificationTextWidgetInstance->AddToViewport();
+		}
+	}
+}
+
+void AMyPlayerController::SetChatMessageString(const FString& InChatMessageString)
+{
+	ChatMessageString = InChatMessageString;
+
+	//PrintChatMessageString(ChatMessageString);
+	if (IsLocalController() == true)
+	{
+		//ServerRPCPrintChatMessageString(InChatMessageString);
+		AMyPlayerState* MyPS = GetPlayerState<AMyPlayerState>();
+		if (IsValid(MyPS) == true)
+		{
+			//FString CombinedMessageString = MyPS->PlayerNameString + TEXT(": ") + InChatMessageString;
+			FString CombinedMessageString = MyPS->GetPlayerInfoString() + TEXT(": ") + InChatMessageString;
+			ServerRPCPrintChatMessageString(CombinedMessageString);
+		}
+	}
+}
+
+void AMyPlayerController::PrintChatMessageString(const FString& InChatMessageString)
+{
+	//UKismetSystemLibrary::PrintString(this, ChatMessageString, true, true, FLinearColor::Red, 5.0f);
+	
+	/*FString NetModeString = ChatFunctionLibrary::GetNetModeString(this);
+	FString CombinedMessageString = FString::Printf(TEXT("%s: %s"), *NetModeString, *InChatMessageString);
+	ChatFunctionLibrary::MyPrintString(this, CombinedMessageString, 10.f);*/
+
+	ChatFunctionLibrary::MyPrintString(this, InChatMessageString, 10.f);
+}
+
+void AMyPlayerController::ClientRPCPrintChatMessageString_Implementation(const FString& InChatMessageString)
+{
+	PrintChatMessageString(InChatMessageString);
+}
+
+void AMyPlayerController::ServerRPCPrintChatMessageString_Implementation(const FString& InChatMessageString)
+{
+	/*for (TActorIterator<AMyPlayerController> It(GetWorld()); It; ++It)
+	{
+		AMyPlayerController* CXPlayerController = *It;
+		if (IsValid(CXPlayerController) == true)
+		{
+			CXPlayerController->ClientRPCPrintChatMessageString(InChatMessageString);
+		}
+	}*/
+
+	AGameModeBase* GM = UGameplayStatics::GetGameMode(this);
+	if (IsValid(GM) == true)
+	{
+		AMyGameModeBase* MyGM = Cast<AMyGameModeBase>(GM);
+		if (IsValid(MyGM) == true)
+		{
+			MyGM->PrintChatMessageString(this, InChatMessageString);
+		}
+	}
+}
+
+void AMyPlayerController::GetLifetimeReplicatedProps(TArray<class FLifetimeProperty>& OutLifetimeProps) const
+{
+	Super::GetLifetimeReplicatedProps(OutLifetimeProps);
+
+	DOREPLIFETIME(ThisClass, NotificationText);
+}

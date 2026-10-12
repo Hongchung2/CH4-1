@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\project\\unrealengine\\chat\\source\\chat\\private\\game\\mygamestatebase.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\project\\unrealengine\\chat\\intermediate\\build\\win64\\x64\\chateditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\project\\unrealengine\\chat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\chat\\definitions.chat.h",
+            "c:\\project\\unrealengine\\chat\\source\\chat\\public\\game\\mygamestatebase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamestatebase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamestatebase.generated.h",
+            "c:\\project\\unrealengine\\chat\\intermediate\\build\\win64\\unrealeditor\\inc\\chat\\uht\\mygamestatebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

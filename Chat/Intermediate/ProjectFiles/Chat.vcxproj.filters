@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Chat.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Chat.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ChatEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <None Include="..\..\UpgradeLog.htm" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Chat">
+      <UniqueIdentifier>{69516F7E-18EE-361F-9F32-EF06D23A1589}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Chat\Chat.Build.cs">
+      <Filter>Source\Chat</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Chat\Chat.cpp">
+      <Filter>Source\Chat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chat\Chat.h">
+      <Filter>Source\Chat</Filter>
+    </ClCompile>
+    <Filter Include="Source\Chat\Private">
+      <UniqueIdentifier>{3B30C8B5-F109-3062-B122-32964CE856A2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Chat\Private\Game">
+      <UniqueIdentifier>{6068B1A9-27B3-3C82-852E-22080D1D2E3A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Chat\Private\Game\MyGameModeBase.cpp">
+      <Filter>Source\Chat\Private\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chat\Private\Game\MyGameStateBase.cpp">
+      <Filter>Source\Chat\Private\Game</Filter>
+    </ClCompile>
+    <Filter Include="Source\Chat\Private\Player">
+      <UniqueIdentifier>{2F2DDB46-C06F-303B-91EF-9C3237BA300E}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Chat\Private\Player\MyPawn.cpp">
+      <Filter>Source\Chat\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chat\Private\Player\MyPlayerController.cpp">
+      <Filter>Source\Chat\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chat\Private\Player\MyPlayerState.cpp">
+      <Filter>Source\Chat\Private\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\Chat\Private\UI">
+      <UniqueIdentifier>{4D9C1E4B-CC13-37EB-B092-ABBF2B2BE608}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Chat\Private\UI\ChatInput.cpp">
+      <Filter>Source\Chat\Private\UI</Filter>
+    </ClCompile>
+    <Filter Include="Source\Chat\Public">
+      <UniqueIdentifier>{ED3A8DDB-1C48-3EEE-AF4A-02F9585D1F1B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Chat\Public\Game">
+      <UniqueIdentifier>{BF55EC22-E90B-3918-9F16-12A9799AF590}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Chat\Public\Game\MyGameModeBase.h">
+      <Filter>Source\Chat\Public\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chat\Public\Game\MyGameStateBase.h">
+      <Filter>Source\Chat\Public\Game</Filter>
+    </ClCompile>
+    <Filter Include="Source\Chat\Public\Player">
+      <UniqueIdentifier>{7D22CC28-8804-33ED-9F08-5AAA91C9F737}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Chat\Public\Player\MyPawn.h">
+      <Filter>Source\Chat\Public\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chat\Public\Player\MyPlayerController.h">
+      <Filter>Source\Chat\Public\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Chat\Public\Player\MyPlayerState.h">
+      <Filter>Source\Chat\Public\Player</Filter>
+    </ClCompile>
+    <Filter Include="Source\Chat\Public\UI">
+      <UniqueIdentifier>{E5FFB200-C836-3541-94F3-7E9415689BB9}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Chat\Public\UI\ChatInput.h">
+      <Filter>Source\Chat\Public\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

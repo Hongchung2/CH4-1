@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\project\\unrealengine\\chat\\source\\chat\\private\\player\\mypawn.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\project\\unrealengine\\chat\\intermediate\\build\\win64\\x64\\chateditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\project\\unrealengine\\chat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\chat\\definitions.chat.h",
+            "c:\\project\\unrealengine\\chat\\source\\chat\\public\\player\\mypawn.h",
+            "c:\\project\\unrealengine\\chat\\intermediate\\build\\win64\\unrealeditor\\inc\\chat\\uht\\mypawn.generated.h",
+            "c:\\project\\unrealengine\\chat\\source\\chat\\chat.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

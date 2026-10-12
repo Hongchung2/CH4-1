@@ -1,0 +1,19 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Project/UnrealEngine/Chat/Content/Chat/Chatting.umap",
+				"C:/Project/UnrealEngine/Chat/Content/Chat/Maps/Chatting.umap",
+				"C:/Project/UnrealEngine/Chat/Content/Chat/Blueprint/Game/BP_MyGameModeBase.uasset",
+				"C:/Project/UnrealEngine/Chat/Content/Chat/Blueprint/Player/BP_MyPlayerController.uasset",
+				"C:/Project/UnrealEngine/Chat/Content/Chat/Blueprint/UI/WBP_ChatInput.uasset",
+				"C:/Project/UnrealEngine/Chat/Content/Chat/Blueprint/Game/BP_MyGameStateBase.uasset",
+				"C:/Project/UnrealEngine/Chat/Content/Chat/Blueprint/Player/BP_MyPlayerState.uasset",
+				"C:/Project/UnrealEngine/Chat/Content/Chat/Blueprint/UI/WBP_NotificationText.uasset"
+			]
+		}
+	]
+}

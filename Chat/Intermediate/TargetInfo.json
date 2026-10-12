@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Chat",
+			"Path": "..\\Source\\Chat.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ChatEditor",
+			"Path": "..\\Source\\ChatEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
