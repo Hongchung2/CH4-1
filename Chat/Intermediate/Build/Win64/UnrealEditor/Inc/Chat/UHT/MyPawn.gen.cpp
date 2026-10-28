@@ -78,14 +78,14 @@ AMyPawn::~AMyPawn() {}
 // End Class AMyPawn
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Project_UnrealEngine_Chat_Source_Chat_Public_Player_MyPawn_h_Statics
+struct Z_CompiledInDeferFile_FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Player_MyPawn_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AMyPawn, AMyPawn::StaticClass, TEXT("AMyPawn"), &Z_Registration_Info_UClass_AMyPawn, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyPawn), 3256383472U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project_UnrealEngine_Chat_Source_Chat_Public_Player_MyPawn_h_4036116397(TEXT("/Script/Chat"),
-	Z_CompiledInDeferFile_FID_Project_UnrealEngine_Chat_Source_Chat_Public_Player_MyPawn_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Project_UnrealEngine_Chat_Source_Chat_Public_Player_MyPawn_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Player_MyPawn_h_4036116397(TEXT("/Script/Chat"),
+	Z_CompiledInDeferFile_FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Player_MyPawn_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Player_MyPawn_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

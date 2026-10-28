@@ -1,15 +1,15 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\project\\unrealengine\\chat\\source\\chat\\private\\player\\myplayerstate.cpp",
+        "Source": "c:\\project\\unrealengine\\ch4-1\\chat\\source\\chat\\private\\player\\myplayerstate.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\project\\unrealengine\\chat\\intermediate\\build\\win64\\x64\\chateditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\project\\unrealengine\\ch4-1\\chat\\intermediate\\build\\win64\\x64\\chateditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "c:\\project\\unrealengine\\chat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\chat\\definitions.chat.h",
-            "c:\\project\\unrealengine\\chat\\source\\chat\\public\\player\\myplayerstate.h",
+            "c:\\project\\unrealengine\\ch4-1\\chat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\chat\\definitions.chat.h",
+            "c:\\project\\unrealengine\\ch4-1\\chat\\source\\chat\\public\\player\\myplayerstate.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerstate.generated.h",
-            "c:\\project\\unrealengine\\chat\\intermediate\\build\\win64\\unrealeditor\\inc\\chat\\uht\\myplayerstate.generated.h",
+            "c:\\project\\unrealengine\\ch4-1\\chat\\intermediate\\build\\win64\\unrealeditor\\inc\\chat\\uht\\myplayerstate.generated.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\public\\net\\unrealnetwork.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\propertyconditions\\propertyconditions.h"
         ],

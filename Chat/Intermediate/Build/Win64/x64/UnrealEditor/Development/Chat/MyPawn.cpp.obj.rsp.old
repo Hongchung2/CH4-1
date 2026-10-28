@@ -1,11 +1,11 @@
-"C:\Project\UnrealEngine\Chat\Source\Chat\Player\Mypawn.cpp"
+"C:\Project\UnrealEngine\Chat\Source\Chat\Private\Player\MyPawn.cpp"
 /FI"C:\Project\UnrealEngine\Chat\Intermediate\Build\Win64\x64\ChatEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
 /FI"C:\Project\UnrealEngine\Chat\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chat\Definitions.Chat.h"
 /Yu"C:\Project\UnrealEngine\Chat\Intermediate\Build\Win64\x64\ChatEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
 /Fp"C:\Project\UnrealEngine\Chat\Intermediate\Build\Win64\x64\ChatEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\Project\UnrealEngine\Chat\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chat\Mypawn.cpp.obj"
-/experimental:log "C:\Project\UnrealEngine\Chat\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chat\Mypawn.cpp.sarif"
-/sourceDependencies "C:\Project\UnrealEngine\Chat\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chat\Mypawn.cpp.dep.json"
+/Fo"C:\Project\UnrealEngine\Chat\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chat\MyPawn.cpp.obj"
+/experimental:log "C:\Project\UnrealEngine\Chat\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chat\MyPawn.cpp.sarif"
+/sourceDependencies "C:\Project\UnrealEngine\Chat\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chat\MyPawn.cpp.dep.json"
 @"C:\Project\UnrealEngine\Chat\Intermediate\Build\Win64\x64\UnrealEditor\Development\Chat\Chat.Shared.rsp"
 /d2ssa-cfg-question-
 /Zc:inline

@@ -1,13 +1,13 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "c:\\project\\unrealengine\\chat\\intermediate\\build\\win64\\unrealeditor\\inc\\chat\\uht\\myplayercontroller.gen.cpp",
+        "Source": "c:\\project\\unrealengine\\ch4-1\\chat\\intermediate\\build\\win64\\unrealeditor\\inc\\chat\\uht\\myplayercontroller.gen.cpp",
         "ProvidedModule": "",
-        "PCH": "c:\\project\\unrealengine\\chat\\intermediate\\build\\win64\\x64\\chateditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\project\\unrealengine\\ch4-1\\chat\\intermediate\\build\\win64\\x64\\chateditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "c:\\project\\unrealengine\\chat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\chat\\definitions.chat.h",
-            "c:\\project\\unrealengine\\chat\\source\\chat\\public\\player\\myplayercontroller.h",
-            "c:\\project\\unrealengine\\chat\\intermediate\\build\\win64\\unrealeditor\\inc\\chat\\uht\\myplayercontroller.generated.h"
+            "c:\\project\\unrealengine\\ch4-1\\chat\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\chat\\definitions.chat.h",
+            "c:\\project\\unrealengine\\ch4-1\\chat\\source\\chat\\public\\player\\myplayercontroller.h",
+            "c:\\project\\unrealengine\\ch4-1\\chat\\intermediate\\build\\win64\\unrealeditor\\inc\\chat\\uht\\myplayercontroller.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

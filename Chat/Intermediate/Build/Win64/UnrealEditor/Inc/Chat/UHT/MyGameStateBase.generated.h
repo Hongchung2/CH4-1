@@ -14,13 +14,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CHAT_MyGameStateBase_generated_h
 
-#define FID_Project_UnrealEngine_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
 	virtual void MulticastRPCBroadcastLoginMessage_Implementation(const FString& InNameString); \
 	DECLARE_FUNCTION(execMulticastRPCBroadcastLoginMessage);
 
 
-#define FID_Project_UnrealEngine_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_CALLBACK_WRAPPERS
-#define FID_Project_UnrealEngine_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_INCLASS_NO_PURE_DECLS \
+#define FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_CALLBACK_WRAPPERS
+#define FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyGameStateBase(); \
 	friend struct Z_Construct_UClass_AMyGameStateBase_Statics; \
@@ -29,7 +29,7 @@ public: \
 	DECLARE_SERIALIZER(AMyGameStateBase)
 
 
-#define FID_Project_UnrealEngine_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_ENHANCED_CONSTRUCTORS \
+#define FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyGameStateBase(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -43,14 +43,14 @@ public: \
 	NO_API virtual ~AMyGameStateBase();
 
 
-#define FID_Project_UnrealEngine_Chat_Source_Chat_Public_Game_MyGameStateBase_h_7_PROLOG
-#define FID_Project_UnrealEngine_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_GENERATED_BODY \
+#define FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Game_MyGameStateBase_h_7_PROLOG
+#define FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Project_UnrealEngine_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Project_UnrealEngine_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_CALLBACK_WRAPPERS \
-	FID_Project_UnrealEngine_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_INCLASS_NO_PURE_DECLS \
-	FID_Project_UnrealEngine_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_ENHANCED_CONSTRUCTORS \
+	FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_CALLBACK_WRAPPERS \
+	FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_INCLASS_NO_PURE_DECLS \
+	FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Game_MyGameStateBase_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -58,7 +58,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> CHAT_API UClass* StaticClass<class AMyGameStateBase>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Project_UnrealEngine_Chat_Source_Chat_Public_Game_MyGameStateBase_h
+#define CURRENT_FILE_ID FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Game_MyGameStateBase_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

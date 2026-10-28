@@ -141,14 +141,14 @@ AMyGameStateBase::~AMyGameStateBase() {}
 // End Class AMyGameStateBase
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Project_UnrealEngine_Chat_Source_Chat_Public_Game_MyGameStateBase_h_Statics
+struct Z_CompiledInDeferFile_FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Game_MyGameStateBase_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_AMyGameStateBase, AMyGameStateBase::StaticClass, TEXT("AMyGameStateBase"), &Z_Registration_Info_UClass_AMyGameStateBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMyGameStateBase), 75937370U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project_UnrealEngine_Chat_Source_Chat_Public_Game_MyGameStateBase_h_4211019392(TEXT("/Script/Chat"),
-	Z_CompiledInDeferFile_FID_Project_UnrealEngine_Chat_Source_Chat_Public_Game_MyGameStateBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Project_UnrealEngine_Chat_Source_Chat_Public_Game_MyGameStateBase_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Game_MyGameStateBase_h_4211019392(TEXT("/Script/Chat"),
+	Z_CompiledInDeferFile_FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Game_MyGameStateBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Game_MyGameStateBase_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

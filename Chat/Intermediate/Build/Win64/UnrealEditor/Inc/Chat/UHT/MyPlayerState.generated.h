@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CHAT_MyPlayerState_generated_h
 
-#define FID_Project_UnrealEngine_Chat_Source_Chat_Public_Player_MyPlayerState_h_10_INCLASS_NO_PURE_DECLS \
+#define FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Player_MyPlayerState_h_10_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyPlayerState(); \
 	friend struct Z_Construct_UClass_AMyPlayerState_Statics; \
@@ -31,7 +31,7 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_Project_UnrealEngine_Chat_Source_Chat_Public_Player_MyPlayerState_h_10_ENHANCED_CONSTRUCTORS \
+#define FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Player_MyPlayerState_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	AMyPlayerState(AMyPlayerState&&); \
@@ -43,12 +43,12 @@ public: \
 	NO_API virtual ~AMyPlayerState();
 
 
-#define FID_Project_UnrealEngine_Chat_Source_Chat_Public_Player_MyPlayerState_h_7_PROLOG
-#define FID_Project_UnrealEngine_Chat_Source_Chat_Public_Player_MyPlayerState_h_10_GENERATED_BODY \
+#define FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Player_MyPlayerState_h_7_PROLOG
+#define FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Player_MyPlayerState_h_10_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Project_UnrealEngine_Chat_Source_Chat_Public_Player_MyPlayerState_h_10_INCLASS_NO_PURE_DECLS \
-	FID_Project_UnrealEngine_Chat_Source_Chat_Public_Player_MyPlayerState_h_10_ENHANCED_CONSTRUCTORS \
+	FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Player_MyPlayerState_h_10_INCLASS_NO_PURE_DECLS \
+	FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Player_MyPlayerState_h_10_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -56,7 +56,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> CHAT_API UClass* StaticClass<class AMyPlayerState>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Project_UnrealEngine_Chat_Source_Chat_Public_Player_MyPlayerState_h
+#define CURRENT_FILE_ID FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_Player_MyPlayerState_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

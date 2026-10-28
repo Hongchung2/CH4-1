@@ -150,14 +150,14 @@ UChatInput::~UChatInput() {}
 // End Class UChatInput
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Project_UnrealEngine_Chat_Source_Chat_Public_UI_ChatInput_h_Statics
+struct Z_CompiledInDeferFile_FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_UI_ChatInput_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_UChatInput, UChatInput::StaticClass, TEXT("UChatInput"), &Z_Registration_Info_UClass_UChatInput, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UChatInput), 2346112674U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project_UnrealEngine_Chat_Source_Chat_Public_UI_ChatInput_h_3324998090(TEXT("/Script/Chat"),
-	Z_CompiledInDeferFile_FID_Project_UnrealEngine_Chat_Source_Chat_Public_UI_ChatInput_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Project_UnrealEngine_Chat_Source_Chat_Public_UI_ChatInput_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_UI_ChatInput_h_3324998090(TEXT("/Script/Chat"),
+	Z_CompiledInDeferFile_FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_UI_ChatInput_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Project_UnrealEngine_CH4_1_Chat_Source_Chat_Public_UI_ChatInput_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
